@@ -37,6 +37,11 @@ a:hover {
 
 nav.navbar {
     background-color: $navfootBg;
+    position: fixed;
+    width: 100%;
+    top:0;
+    left:0;
+    z-index: 100;
 }
 
 footer.footer {

@@ -13,7 +13,12 @@ a:hover {
   color: #b2bec3; }
 
 nav.navbar {
-  background-color: #0984e3; }
+  background-color: #0984e3;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100; }
 
 footer.footer {
   background-color: #0984e3;
