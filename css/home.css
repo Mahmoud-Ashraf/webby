@@ -1,3 +1,27 @@
-
+.jumbotron-fluid {
+  background-color: transparent;
+  height: 100vh;
+  position: relative;
+  align-items: center; }
+  .jumbotron-fluid svg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; }
+    .jumbotron-fluid svg ellipse {
+      fill: #dfe6e9; }
+  .jumbotron-fluid h1 {
+    color: #74b9ff; }
+  .jumbotron-fluid p {
+    color: #636e72; }
+    .jumbotron-fluid p a.btn {
+      background-color: #0984e3;
+      color: #2d3436;
+      transition: background-color .3s, color .3s; }
+      .jumbotron-fluid p a.btn:hover {
+        background-color: #2d3436;
+        color: #0984e3; }
 
 /*# sourceMappingURL=home.css.map */

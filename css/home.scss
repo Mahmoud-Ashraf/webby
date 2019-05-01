@@ -1,0 +1,55 @@
+$navfootBg: #0984e3;
+$navFootBorder: #74b9ff;
+$mainColor: #dfe6e9;
+$darkerColor: #636e72;
+$darkestColor: #2d3436;
+$headingColor: #b2bec3;
+$hoverColor: #b2bec3;
+$facebookColor: #3c5a99;
+$twitterColor: #1da1f2;
+$youtubeColor: #FF0000;
+$instagramColor: #405de6;
+$mainFontSize: 16px;
+$socialIconSize: $mainFontSize + 4px;
+$fivepx: 5px;
+$tenpx: 10px;
+$fifttenpx: 15px;
+$tweentypx: 20px;
+$sectionPadding-y: 70px;
+$mainFont: 'Poppins', sans-serif;
+%sectionPadding-y {
+    padding-top: $sectionPadding-y;
+    padding-bottom: $sectionPadding-y;
+}
+.jumbotron-fluid {
+    background-color: transparent;
+    height: 100vh;
+    position: relative;
+    align-items: center;
+    svg {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top:0;
+        left:0;
+        z-index: -1;
+        ellipse {
+            fill: $mainColor;
+        }
+    }
+    h1 {
+        color: $navFootBorder;
+    }
+    p {
+        color: $darkerColor;
+        a.btn {
+            background-color: $navfootBg;
+            color: $darkestColor;
+            transition: background-color .3s, color .3s;
+            &:hover {
+                background-color: $darkestColor;
+                color: $navfootBg;
+            }
+        }
+    }
+}
