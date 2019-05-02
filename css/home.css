@@ -24,4 +24,28 @@
         background-color: #2d3436;
         color: #0984e3; }
 
+section.how-to img {
+  height: 100%; }
+section.how-to h2 {
+  color: #2d3436;
+  margin-bottom: 20px; }
+section.how-to ul {
+  color: #636e72; }
+  section.how-to ul li {
+    padding-left: 10px;
+    margin-bottom: 10px; }
+    section.how-to ul li i {
+      padding: 7px;
+      background-color: #74b9ff;
+      color: #fff;
+      border-radius: 50%;
+      margin-right: 15px; }
+section.how-to a {
+  background-color: #0984e3;
+  color: #2d3436;
+  transition: background-color .3s, color .3s; }
+  section.how-to a:hover {
+    background-color: #2d3436;
+    color: #0984e3; }
+
 /*# sourceMappingURL=home.css.map */
