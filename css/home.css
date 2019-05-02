@@ -48,4 +48,27 @@ section.how-to a {
     background-color: #2d3436;
     color: #0984e3; }
 
+section.features {
+  background-color: #dfe6e9; }
+  section.features h2 {
+    color: #2d3436;
+    margin-bottom: 15px; }
+  section.features ul {
+    color: #636e72; }
+    section.features ul li {
+      padding-left: 10px;
+      margin-bottom: 10px; }
+      section.features ul li i {
+        background-color: #74b9ff;
+        color: #fff;
+        border-radius: 50%;
+        margin-right: 15px;
+        text-align: center;
+        display: inline-block;
+        font-size: 22px;
+        line-height: 30px;
+        width: 40px;
+        height: 40px;
+        padding: 5px; }
+
 /*# sourceMappingURL=home.css.map */
