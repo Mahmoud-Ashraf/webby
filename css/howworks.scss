@@ -1,0 +1,64 @@
+$navfootBg: #0984e3;
+$navFootBorder: #74b9ff;
+$mainColor: #dfe6e9;
+$darkerColor: #636e72;
+$darkestColor: #2d3436;
+$headingColor: #b2bec3;
+$hoverColor: #b2bec3;
+$facebookColor: #3c5a99;
+$twitterColor: #1da1f2;
+$youtubeColor: #FF0000;
+$instagramColor: #405de6;
+$mainFontSize: 16px;
+$socialIconSize: $mainFontSize + 4px;
+$fivepx: 5px;
+$tenpx: 10px;
+$fifttenpx: 15px;
+$tweentypx: 20px;
+$sectionPadding-y: 150px;
+$mainFont: 'Poppins', sans-serif;
+%sectionPadding-y {
+    padding-top: $sectionPadding-y;
+    padding-bottom: $sectionPadding-y;
+}
+section.how-to {
+    @extend %sectionPadding-y;
+    img {
+        height: 100%;
+    }
+    h2 {
+        color: $darkestColor;
+        margin-bottom: $tweentypx;
+    }
+    .steps {
+        h5 {
+            color: $darkerColor;
+        }
+        .icon {
+            color: $darkerColor;
+            margin-bottom: $tweentypx;
+            i {
+                padding: 7px;
+                background-color: $navFootBorder;
+                color: #fff;
+                border-radius: 50%;
+                margin-right: $fifttenpx;
+                text-align: center;
+                display: inline-block;
+                width: 50px;
+                height: 50px;
+                line-height: 36px;
+                font-size: 24px;
+            }
+        }
+    }
+        a {
+        background-color: $navfootBg;
+        color: $darkestColor;
+        transition: background-color .3s, color .3s;
+        &:hover {
+            background-color: $darkestColor;
+            color: $navfootBg;
+        }
+    }
+}
