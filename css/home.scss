@@ -112,3 +112,20 @@ section.features {
         }
     }
 }
+section.success {
+    h2,h5 {
+        color: $darkestColor;
+    }
+    p {
+        color: $darkerColor;
+    }
+    a.btn {
+        background-color: $navfootBg;
+        color: $darkestColor;
+        transition: background-color .3s, color .3s;
+        &:hover {
+            background-color: $darkestColor;
+            color: $navfootBg;
+        }
+    }
+}

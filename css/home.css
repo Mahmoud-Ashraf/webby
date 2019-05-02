@@ -71,4 +71,16 @@ section.features {
         height: 40px;
         padding: 5px; }
 
+section.success h2, section.success h5 {
+  color: #2d3436; }
+section.success p {
+  color: #636e72; }
+section.success a.btn {
+  background-color: #0984e3;
+  color: #2d3436;
+  transition: background-color .3s, color .3s; }
+  section.success a.btn:hover {
+    background-color: #2d3436;
+    color: #0984e3; }
+
 /*# sourceMappingURL=home.css.map */
