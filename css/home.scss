@@ -22,13 +22,7 @@
     p {
         color: $darkerColor;
         a.btn {
-            background-color: $mainColor;
-            color: $darkestColor;
-            transition: background-color .3s, color .3s;
-            &:hover {
-                background-color: $darkestColor;
-                color: $mainColor;
-            }
+            @extend %mainColorBtn;
         }
     }
 }
@@ -55,13 +49,7 @@ section.how-to {
         }
     }
     a {
-        background-color: $mainColor;
-        color: $darkestColor;
-        transition: background-color .3s, color .3s;
-        &:hover {
-            background-color: $darkestColor;
-            color: $mainColor;
-        }
+        @extend %mainColorBtn;
     }
 }
 section.features {
@@ -99,12 +87,6 @@ section.success {
         color: $darkerColor;
     }
     a.btn {
-        background-color: $mainColor;
-        color: $darkestColor;
-        transition: background-color .3s, color .3s;
-        &:hover {
-            background-color: $darkestColor;
-            color: $mainColor;
-        }
+        @extend %mainColorBtn;
     }
 }

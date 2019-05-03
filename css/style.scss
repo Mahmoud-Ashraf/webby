@@ -14,13 +14,24 @@ $fivepx: 5px;
 $tenpx: 10px;
 $fifttenpx: 15px;
 $tweentypx: 20px;
-$sectionPadding-y: 70px;
+$sectionPadding-y: 100px;
 $mainFont: 'Poppins', sans-serif;
 
 
 %sectionPadding-y {
     padding-top: $sectionPadding-y;
     padding-bottom: $sectionPadding-y;
+}
+%mainColorBtn {
+    background-color: $mainColor;
+    color: $lightTextColor;
+    border: 2px solid $mainColor;
+    transition: background-color .3s, color .3s;
+    &:hover {
+        background-color: transparent;
+        border: 2px solid $mainColor;
+        color: $mainColor;
+    }
 }
 
 

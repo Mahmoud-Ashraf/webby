@@ -39,6 +39,40 @@
         </div>
       </nav>
 
+      <section class="contact" id="contact">
+        <div class="question-title">
+          <header class="title py-5 text-center">
+            <h2>Send Us A Message</h2>
+          </header>
+        </div>
+        <div class="container text-center">
+          <div class="row">
+            <form class="col-12">
+              <div class="form-group">
+                <label for="name ">Name</label>
+                <input type="text" name="name" id="name" class="form-control" maxlength="20" minlength="3" placeholder="Your Name" aria-describedby="helpId" required>
+                <small id="helpId" class="alert text-muted">Doesn't Contain Special Char. | Max Length 50 Char.</small>
+              </div>
+              <div class="form-group">
+                <label for="email ">Email</label>
+                <input type="email" name="email" id="email" class="form-control" maxlength="100" minlength="10" placeholder="Your Email" aria-describedby="helpId" required>
+                <small id="helpId" class="alert text-muted">Type a Valid Email Address</small>
+              </div>
+              <div class="form-group">
+                <label for="subject">Phone</label>
+                <input type="number" name="phone" id="phone" class="form-control" maxlength="11" minlength="14" placeholder="Your Phone Number" aria-describedby="helpId" required>
+                <small id="helpId" class="alert text-muted">Type A Valid Phone Number</small>
+              </div>
+              <div class="form-group">
+                <label for="message ">Message</label>
+                <textarea name="message" id="message" class="form-control" placeholder="Your Message" aria-describedby="helpId" required></textarea>
+                <small id="helpId" class="alert text-muted">Should Be More Than 100 Char. & Less Than 1000 Char.</small>
+              </div>
+              <button type="submit" class="btn sub-form">Submit</button>
+            </form>
+          </div>
+        </div>
+      </section>
       <!-- Page Content Here -->
 
       <footer class="footer">

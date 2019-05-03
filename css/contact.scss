@@ -1,1 +1,16 @@
 @import 'style';
+
+.contact {
+    @extend %sectionPadding-y;
+    h2 {
+        color: $darkestColor;
+    }
+    .form-group {
+        label {
+            color: $darkestColor;
+        }
+    }
+    button {
+        @extend %mainColorBtn;
+    }
+}
