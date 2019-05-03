@@ -31,13 +31,7 @@ section.how-to {
             }
         }
     }
-        a {
-        background-color: $mainColor;
-        color: $darkestColor;
-        transition: background-color .3s, color .3s;
-        &:hover {
-            background-color: $darkestColor;
-            color: $mainColor;
-        }
+    a {
+        @extend %mainColorBtn;
     }
 }
