@@ -1,70 +1,90 @@
 body {
   font-family: "Poppins", sans-serif;
   color: #dfe6e9;
-  font-size: 16px; }
+  font-size: 16px;
+}
 
 h1, h2, h3, h4, h5, h6 {
-  color: #dfe6e9; }
+  color: #dfe6e9;
+}
 
 a {
-  color: #dfe6e9; }
+  color: #dfe6e9;
+}
 
 a:hover {
   text-decoration: none;
-  color: #b2bec3; }
+  color: #b2bec3;
+}
 
 nav.navbar {
   background-color: #0984e3;
-  position: fixed;
+  position: sticky;
   width: 100%;
   top: 0;
   left: 0;
-  z-index: 100; }
+  z-index: 100;
+}
 
 footer.footer {
   background-color: #0984e3;
-  padding-top: 20px; }
-  footer.footer .info .subscribe .socials a {
-    margin-right: 10px;
-    display: inline-block; }
-    footer.footer .info .subscribe .socials a span i {
-      padding: 5px;
-      width: 32px;
-      height: 32px;
-      font-size: 20px;
-      line-height: 22px;
-      text-align: center;
-      border-radius: 3px;
-      background-color: #dfe6e9;
-      transition: all .5s; }
-    footer.footer .info .subscribe .socials a span .fa-facebook-f {
-      color: #3c5a99; }
-      footer.footer .info .subscribe .socials a span .fa-facebook-f:hover {
-        color: #dfe6e9;
-        background-color: #3c5a99; }
-    footer.footer .info .subscribe .socials a span .fa-twitter {
-      color: #1da1f2; }
-      footer.footer .info .subscribe .socials a span .fa-twitter:hover {
-        color: #dfe6e9;
-        background-color: #1da1f2; }
-    footer.footer .info .subscribe .socials a span .fa-youtube {
-      color: #FF0000; }
-      footer.footer .info .subscribe .socials a span .fa-youtube:hover {
-        color: #dfe6e9;
-        background-color: #FF0000; }
-    footer.footer .info .subscribe .socials a span .fa-instagram {
-      color: #405de6; }
-      footer.footer .info .subscribe .socials a span .fa-instagram:hover {
-        color: #dfe6e9;
-        background-color: #405de6; }
-  footer.footer .info .links li {
-    margin-bottom: 10px; }
-  footer.footer .info .contacts li {
-    margin-bottom: 10px; }
-    footer.footer .info .contacts li i {
-      margin-right: 10px; }
-  footer.footer .copy-rights {
-    padding-top: 15px;
-    border-top: 1px solid #74b9ff; }
+  padding-top: 20px;
+}
+footer.footer .info .subscribe .socials a {
+  margin-right: 10px;
+  display: inline-block;
+}
+footer.footer .info .subscribe .socials a span i {
+  padding: 5px;
+  width: 32px;
+  height: 32px;
+  font-size: 20px;
+  line-height: 22px;
+  text-align: center;
+  border-radius: 3px;
+  background-color: #dfe6e9;
+  transition: all 0.5s;
+}
+footer.footer .info .subscribe .socials a span .fa-facebook-f {
+  color: #3c5a99;
+}
+footer.footer .info .subscribe .socials a span .fa-facebook-f:hover {
+  color: #dfe6e9;
+  background-color: #3c5a99;
+}
+footer.footer .info .subscribe .socials a span .fa-twitter {
+  color: #1da1f2;
+}
+footer.footer .info .subscribe .socials a span .fa-twitter:hover {
+  color: #dfe6e9;
+  background-color: #1da1f2;
+}
+footer.footer .info .subscribe .socials a span .fa-youtube {
+  color: #FF0000;
+}
+footer.footer .info .subscribe .socials a span .fa-youtube:hover {
+  color: #dfe6e9;
+  background-color: #FF0000;
+}
+footer.footer .info .subscribe .socials a span .fa-instagram {
+  color: #405de6;
+}
+footer.footer .info .subscribe .socials a span .fa-instagram:hover {
+  color: #dfe6e9;
+  background-color: #405de6;
+}
+footer.footer .info .links li {
+  margin-bottom: 10px;
+}
+footer.footer .info .contacts li {
+  margin-bottom: 10px;
+}
+footer.footer .info .contacts li i {
+  margin-right: 10px;
+}
+footer.footer .copy-rights {
+  padding-top: 15px;
+  border-top: 1px solid #74b9ff;
+}
 
 /*# sourceMappingURL=style.css.map */
