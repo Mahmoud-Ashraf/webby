@@ -2,6 +2,16 @@ section.how-to {
   padding-top: 100px;
   padding-bottom: 100px; }
 
+section.how-to a {
+  background-color: #0984e3;
+  color: #dfe6e9;
+  border: 2px solid #0984e3;
+  transition: background-color .3s, color .3s; }
+  section.how-to a:hover {
+    background-color: transparent;
+    border: 2px solid #0984e3;
+    color: #0984e3; }
+
 body {
   font-family: "Poppins", sans-serif;
   color: #dfe6e9;
@@ -93,12 +103,5 @@ section.how-to .steps .icon {
     height: 50px;
     line-height: 36px;
     font-size: 24px; }
-section.how-to a {
-  background-color: #0984e3;
-  color: #2d3436;
-  transition: background-color .3s, color .3s; }
-  section.how-to a:hover {
-    background-color: #2d3436;
-    color: #0984e3; }
 
 /*# sourceMappingURL=howworks.css.map */
