@@ -181,6 +181,7 @@ button.fs-continue,
 	padding: 0 5px 1em 0;
 	font-weight: 700;
 	pointer-events: none;
+	color: #0984e3;
 }
 
 .fs-form-full .fs-fields > li label[data-info]::after {
@@ -343,15 +344,15 @@ button.fs-continue,
 }
 
 .fs-fields .fs-radio-custom label.radio-mobile::after {
-	background-image: url(../img/mobile.svg);
+	background-image: url(../images/layouts/layout-1.jpg);
 }
 
 .fs-fields .fs-radio-custom label.radio-social::after {
-	background-image: url(../img/social.svg);
+	background-image: url(../images/layouts/layout-2.jpg);
 }
 
 .fs-fields .fs-radio-custom label.radio-conversion::after {
-	background-image: url(../img/conversion.svg);
+	background-image: url(../images/layouts/layout-3.jpg);
 }
 
 .fs-fields .fs-radio-custom label:hover::after,
