@@ -1,26 +1,5 @@
-$navfootBg: #0984e3;
-$navFootBorder: #74b9ff;
-$mainColor: #dfe6e9;
-$darkerColor: #636e72;
-$darkestColor: #2d3436;
-$headingColor: #b2bec3;
-$hoverColor: #b2bec3;
-$facebookColor: #3c5a99;
-$twitterColor: #1da1f2;
-$youtubeColor: #FF0000;
-$instagramColor: #405de6;
-$mainFontSize: 16px;
-$socialIconSize: $mainFontSize + 4px;
-$fivepx: 5px;
-$tenpx: 10px;
-$fifttenpx: 15px;
-$tweentypx: 20px;
-$sectionPadding-y: 70px;
-$mainFont: 'Poppins', sans-serif;
-%sectionPadding-y {
-    padding-top: $sectionPadding-y;
-    padding-bottom: $sectionPadding-y;
-}
+@import 'style';
+
 .jumbotron-fluid {
     background-color: transparent;
     height: 100vh;
@@ -34,21 +13,21 @@ $mainFont: 'Poppins', sans-serif;
         left:0;
         z-index: -1;
         ellipse {
-            fill: $mainColor;
+            fill: $lightTextColor;
         }
     }
     h1 {
-        color: $navFootBorder;
+        color: $secondaryColor;
     }
     p {
         color: $darkerColor;
         a.btn {
-            background-color: $navfootBg;
+            background-color: $mainColor;
             color: $darkestColor;
             transition: background-color .3s, color .3s;
             &:hover {
                 background-color: $darkestColor;
-                color: $navfootBg;
+                color: $mainColor;
             }
         }
     }
@@ -68,7 +47,7 @@ section.how-to {
             margin-bottom: 10px;
             i {
                 padding: 7px;
-                background-color: $navFootBorder;
+                background-color: $secondaryColor;
                 color: #fff;
                 border-radius: 50%;
                 margin-right: $fifttenpx;
@@ -76,17 +55,17 @@ section.how-to {
         }
     }
     a {
-        background-color: $navfootBg;
+        background-color: $mainColor;
         color: $darkestColor;
         transition: background-color .3s, color .3s;
         &:hover {
             background-color: $darkestColor;
-            color: $navfootBg;
+            color: $mainColor;
         }
     }
 }
 section.features {
-    background-color: $mainColor;
+    background-color: $lightTextColor;
     h2 {
         color: $darkestColor;
         margin-bottom: $fifttenpx;
@@ -97,7 +76,7 @@ section.features {
             padding-left: $tenpx;
             margin-bottom: 10px;
             i {
-                background-color: $navFootBorder;
+                background-color: $secondaryColor;
                 color: #fff;
                 border-radius: 50%;
                 margin-right: $fifttenpx;
@@ -120,12 +99,12 @@ section.success {
         color: $darkerColor;
     }
     a.btn {
-        background-color: $navfootBg;
+        background-color: $mainColor;
         color: $darkestColor;
         transition: background-color .3s, color .3s;
         &:hover {
             background-color: $darkestColor;
-            color: $navfootBg;
+            color: $mainColor;
         }
     }
 }
